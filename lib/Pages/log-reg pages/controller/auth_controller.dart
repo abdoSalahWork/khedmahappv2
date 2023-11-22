@@ -32,7 +32,8 @@ class AuthController extends GetxController {
   ];
   final GoogleSignIn _googleSignIn = GoogleSignIn(
     scopes: _scopes,
-    clientId: '861823949799-vc35cprkp249096uujjn0vvnmcvjppkn.apps.googleusercontent.com'
+    clientId: '705392766739-pm24lqml7o30s948lnv49euioq5kit4v.apps.googleusercontent.com',
+    serverClientId: '705392766739-pm24lqml7o30s948lnv49euioq5kit4v.apps.googleusercontent.com'
   );
   GoogleSignInAccount? _currentUser;
   bool _isAuthorized = false; // has granted permissions?
